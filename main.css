@@ -43,7 +43,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*helper colors*/
+* {
+  box-sizing: border-box;
+}
+/*helper colors
 .main-header {
   background-color: aquamarine;
 }
@@ -52,27 +55,34 @@ table {
 }
 .link-section {
   background-color: beige;
+}*/
+body {
+  background-image:url(assets/th.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover
 }
 /*tipography*/
 body {
   font-size:1.125rem;
-  line-height:32px;
-  color:black;
+  line-height:25px;
+  text-align: center;
 }
 .main-header {
   font-family: 'Lora', serif;
   color:darkslategrey;
-  font-size:1.125rem;
+  font-size:1rem;
 }
 h1 {
   font-size:1.5rem;
   letter-spacing:2px;
 }
 p {
-  font-size:1.125rem;
+  font-size:1rem;
 }
 .about, .link-section {
-  font-size:1.125rem;
+  font-size:1rem;
   font-family: 'Merriweather', serif;
 }
 .link-section {
@@ -80,13 +90,42 @@ p {
 }
 /*pic*/
 img {
-  height:auto;
   width:40%;
-}
-img {
-  width:auto;
-  height:50%;
-}
-img {
+  height:auto;
   border-radius:50%;
+  margin-top:0.5%;
+  position:relative;
+  top:5vh;
 }
+/*sizing*/
+.main-header {
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: hsla(0, 0%, 100%, .6);
+  color:purple;
+  font-weight: bold;
+  padding-top:5%;
+  border-bottom:2px solid green;
+}
+.about {
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: hsla(0, 0%, 100%, .6);
+  border-radius: 4px;
+  color:purple;
+}
+.link-section {
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: hsla(0, 0%, 100%, .6);
+  border-radius: 4px;
+  color:purple;
+  font-weight: bold;
+}
+a:hover {
+  color:orange;
+}
+
