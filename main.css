@@ -104,14 +104,14 @@ img {
 img:hover {
  transform:scale(1.1);
 }
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   img {
     position: fixed;
     top: 0;
     left:0;
     border-radius:0%;
     height: 100%;
-    width: auto;
+    width: 47%;
     margin:0 0;
   }
   img:hover {
@@ -147,14 +147,16 @@ img:hover {
   color:purple;
   font-weight: bold;
 }
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .main-header {
     position:fixed;
     top:25%;
-    right:2%;
-    width:30%;
+    right:0;
+    width:40%;
     padding:1%;
     font-size:2rem;
+    margin-left:6%;
+    margin-right:7%;
   }
   h1 {
     font-size:2.5rem;
@@ -163,8 +165,10 @@ img:hover {
   .about {
     position:fixed;
     top:40%;
-    right:2%;
-    width:30%;
+    right:0;
+    width:40%;
+    margin-left:6%;
+    margin-right:7%;
   }
   .link-section {
     position:fixed;
